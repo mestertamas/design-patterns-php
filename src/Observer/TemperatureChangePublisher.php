@@ -10,7 +10,7 @@ class TemperatureChangePublisher implements SubjectInterface
 
     public function __construct()
     {
-        $this->observers = new SplObjectStorage;
+        $this->observers = new SplObjectStorage();
     }
 
     /**
