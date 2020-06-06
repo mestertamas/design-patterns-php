@@ -8,7 +8,7 @@ use DesignPatterns\strategy\CannotKick;
 use DesignPatterns\strategy\MemberAccount;
 use PHPUnit\Framework\TestCase;
 
-/** @coversDefaultClass \DesignPatterns\strategy\GuestAccount */
+/** @coversDefaultClass \DesignPatterns\Strategy\GuestAccount */
 class MemberAccountTest extends TestCase
 {
     private const MEMBER_INFO_TEXT = 'This is the member info!';

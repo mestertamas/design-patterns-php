@@ -8,7 +8,7 @@ use DesignPatterns\strategy\CannotLogin;
 use DesignPatterns\strategy\GuestAccount;
 use PHPUnit\Framework\TestCase;
 
-/** @coversDefaultClass \DesignPatterns\strategy\GuestAccount */
+/** @coversDefaultClass \DesignPatterns\Strategy\GuestAccount */
 class GuestAccountTest extends TestCase
 {
     private const GUEST_INFO_TEXT = 'This is the guest info!';

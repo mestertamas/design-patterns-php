@@ -8,7 +8,7 @@ use DesignPatterns\strategy\CanLogin;
 use DesignPatterns\strategy\CannotComment;
 use PHPUnit\Framework\TestCase;
 
-/** @coversDefaultClass \DesignPatterns\strategy\AdminAccount */
+/** @coversDefaultClass \DesignPatterns\Strategy\AdminAccount */
 class AdminAccountTest extends TestCase
 {
     private const ADMIN_INFO_TEXT = 'This is the admin info!';
