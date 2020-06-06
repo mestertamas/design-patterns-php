@@ -8,7 +8,7 @@ use DesignPatterns\strategy\CannotKick;
 use DesignPatterns\strategy\MemberAccount;
 use PHPUnit\Framework\TestCase;
 
-/** @coversDefaultClass \DesignPatterns\Strategy\GuestAccount */
+/** @coversDefaultClass \DesignPatterns\Strategy\MemberAccount */
 class MemberAccountTest extends TestCase
 {
     private const MEMBER_INFO_TEXT = 'This is the member info!';
@@ -25,6 +25,9 @@ class MemberAccountTest extends TestCase
         );
     }
 
+    /**
+     * @covers ::getMemberAccountInfo
+     */
     public function testGreetWillReturnMemberInfoText(): void
     {
         $this->assertEquals($this->sut->getMemberAccountInfo(), self::MEMBER_INFO_TEXT);

@@ -25,6 +25,9 @@ class AdminAccountTest extends TestCase
         );
     }
 
+    /**
+     * @covers ::getAdminAccountInfo
+     */
     public function testGreetWillReturnGuestInfoText(): void
     {
         $this->assertEquals($this->sut->getAdminAccountInfo(), self::ADMIN_INFO_TEXT);
